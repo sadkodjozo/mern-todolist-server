@@ -1,0 +1,17 @@
+GET http://localhost:5000/items
+
+
+
+###
+POST http://localhost:5000/item/new
+Content-Type: application/json
+
+{
+    "text": "Order Pura II"
+}
+
+###
+DELETE http://localhost:5000/todo/delete/63e91833c9a1a142446092df
+
+###
+PUT http://localhost:5000/todo/complete/63e95c8b037c470711cb226f
